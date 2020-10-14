@@ -1,0 +1,203 @@
+/* ==== ==== ==== Variables ==== ==== ==== */
+
+:root {
+  --color-primario: #556C10;
+  --color-acento: #E68F1A;
+  --color-oscuro: #151A04;
+  --color-claro: #EFF8D3;
+  --color-texto: #212121;
+  --color-texto-secundario: #757575;
+  --texto-titulo: Open Sans, sans-serif;
+  --texto-parrafo: Open Sans, sans-serif;  
+}
+
+/* ==== ==== ==== Estilos Generales ==== ==== ==== */
+
+h1 {
+  color: var(--color-primario);
+  font-size: 2.5rem;
+  font-family: var(--texto-titulo);
+  font-weight: 700;
+}
+
+h2 {
+  color: var(--color-primario);
+  font-size: 2rem;
+  font-family: var(--texto-titulo);
+}
+
+h3 {
+  color: var(--color-texto);
+  font-size: 1.5rem;
+  font-family: var(--texto-titulo);
+}
+
+p {
+  color: var(--color-texto);
+  font-size: 1rem;
+  font-family: var(--texto-parrafo);
+}
+
+a {
+  color: var(--color-texto);
+  font-size: 1rem;
+  text-decoration: none;
+}
+
+/* ==== ==== ==== INICIO ==== ==== ==== */
+
+/* ==== ==== ==== Header ==== ==== ==== */
+
+header {
+  background-color: var(--color-claro);
+}
+
+.navbar-brand img {
+  width: 200px;
+}
+
+.nav-link {
+  font-weight: 700;
+}
+
+.nav-link:hover {
+  color: var(--color-acento);
+}
+
+/* ==== ==== ==== Introduccion  ==== ==== ==== */
+
+#introduccion {
+  background-color: var(--color-claro);
+  padding: 6em 6.5em;
+}
+
+#introduccion > * + * {
+  margin-top: 1.5em;
+}
+
+#introduccion > h1 {
+  margin-bottom: 1em;
+  text-align: center;
+}
+
+#introduccion > p {
+  text-align: center;
+}
+
+/* ==== ==== ==== Seccion Servicios ==== ==== ==== */
+
+#servicios > div > div {
+  flex-basis: 340px;
+}
+
+/* ==== ==== ==== Call to Action ==== ==== ==== */
+
+#cta {
+  background-color: var(--color-primario);
+  padding: 3em 3.5em;
+  text-align: center;
+}
+
+#cta > * + * {
+  margin-top: 1.5em;
+}
+
+#cta h2 {
+  color: var(--color-acento);
+  font-weight: 700;
+}
+
+#cta p {
+  color: white;
+}
+
+#cta a {
+  border: 2px solid var(--color-acento);
+  color: var(--color-acento);
+  font-weight: 700;
+  padding: 0.5em 1em;
+  transition: 300ms;
+}
+
+#cta a:hover {
+  background-color: var(--color-acento);
+  color: white;
+}
+
+/* ==== ==== ==== Footer ==== ==== ==== */
+
+/* ==== ==== ==== NOSOTROS ==== ==== ==== */
+
+#nosotros {
+  padding: 6em 6.5em 3em 6.5em;
+}
+
+#nosotros > * + * {
+  margin-top: 1.5em;
+}
+
+#nosotros h1 {
+  text-align: center;
+}
+
+#nosotros span {
+  color: var(--color-acento);
+  font-weight: 700;
+  font-style: italic;
+}
+
+#lista-servicios {
+  padding: 0 6.5em;
+}
+
+#lista-servicios li {
+  color: var(--color-texto);
+  font-size: 1rem;
+  font-family: var(--texto-parrafo);
+}
+
+#lista-servicios ul li + li {
+  margin-top: 1.5em;
+}
+
+/* ==== ==== ==== SERVICIOS ==== ==== ==== */
+
+.servicios-titulo {
+  padding: 2.5em 2.5em 1em 2.5em;
+}
+
+#cards {
+  width: 80%;
+}
+
+/* ==== ==== ==== CONTACTO ==== ==== ==== */
+
+.formulario h1 {
+  padding: 2.5em 2.5em 1em 2.5em;
+  text-align: center;
+}
+
+.formulario p {
+  text-align: center;
+}
+
+form {
+  background-color: var(--color-claro);
+  padding: 2em 3em;
+  width: 75%;
+}
+
+.btn {
+  border: 2px solid var(--color-acento);
+  color: var(--color-acento);
+  display: block;
+  font-weight: 700;
+  padding: 0.5em 1em;
+  transition: 300ms;
+  width: 100%;
+}
+
+.btn:hover {
+  background-color: var(--color-acento);
+  color: white;
+}
