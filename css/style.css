@@ -44,6 +44,38 @@ a {
   text-decoration: none;
 }
 
+/* ==== ==== ==== LOGIN ==== ==== ==== */
+
+#login {
+  align-items: center;
+  background-color: var(--color-claro);
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  justify-content: start;
+}
+
+.login-logo {
+  margin-top: 1.5em;
+  width: 350px;
+}
+
+.login-logo img {
+  width: 100%;
+}
+
+.contenido-login {
+  background-color: white;
+  box-shadow: 0 8px 8px rgba(0, 0, 0, 0.10);
+  margin-top: 1.5em;
+  padding: 3em 4em;
+  width: 500px;
+}
+
+.contenido-login > * + * {
+  margin-top: 1.5em;
+}
+
 /* ==== ==== ==== INICIO ==== ==== ==== */
 
 /* ==== ==== ==== Header ==== ==== ==== */
@@ -62,6 +94,18 @@ header {
 
 .nav-link:hover {
   color: var(--color-acento);
+}
+
+.datos-usuario__img {
+  height: 60px;
+  margin-right: .5em;
+  width: 60px;
+}
+
+.datos-usuario__nombre,
+.datos-usuario__email {
+  font-size: .8rem;
+  margin-bottom: 0;
 }
 
 /* ==== ==== ==== Introduccion  ==== ==== ==== */

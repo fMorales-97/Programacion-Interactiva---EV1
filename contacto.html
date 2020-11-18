@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Evaluacion Acumulativa 1</title>
+  <title>Evaluacion Acumulativa 2</title>
   <!-- -- -- -- Bootstrap CSS -- -- -- -->
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha2/css/bootstrap.min.css" integrity="sha384-DhY6onE6f3zzKbjUPRc2hOzGAdEf4/Dz+WJwBvEYL/lkkIsI3ihufq9hk9K4lVoK" crossorigin="anonymous">
   <!-- -- -- -- Mi CSS -- -- -- -->
@@ -33,6 +33,13 @@
             </li>
           </ul>
         </div>
+        <div class="d-flex align-items-center mr-2 datos-usuario">
+          <img src="" alt="" class="datos-usuario__img">
+          <div>
+            <p class="datos-usuario__nombre"></p>
+            <p class="datos-usuario__email"></p>
+          </div>          
+        </div>
       </div>
     </nav>
   </header>
@@ -42,7 +49,7 @@
       <h1>Contacto</h1>
       <p>Llena el siguiente formulario para ponerte en contacto con nosotros.</p>
       <form class="mx-auto">
-        <div class="erroresDiv"></div>
+        <div id="erroresDiv"></div>
         <div class="form-group mb-3">
           <label for="nombre" class="form-label">Nombre:</label>
           <input type="text" class="form-control" id="nombre">
@@ -73,6 +80,6 @@
   <!-- -- -- -- SweetAlert JS -- -- -- -->
   <script src="https://cdn.jsdelivr.net/npm/sweetalert2@10"></script>
   <!-- -- -- -- Mi JS -- -- -- -->
-  <script src="js/index.js"></script>
+  <script src="js/contacto.js"></script>
 </body>
 </html>
