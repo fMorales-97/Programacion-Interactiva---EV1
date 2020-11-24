@@ -245,3 +245,15 @@ form {
   background-color: var(--color-acento);
   color: white;
 }
+
+/* ==== ==== ==== CONTACTO EFECTUADO ==== ==== ==== */
+
+.tabla-contactos h1 {
+  padding: 2.5em 2.5em 1em 2.5em;
+  text-align: center;
+}
+
+.tabla-contactos p {
+  margin-bottom: 1em;
+  text-align: center;
+}

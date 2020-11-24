@@ -34,9 +34,6 @@
             <li class="nav-item hidden-2">
               <a href="contactos-efectuados.html" class="nav-link">Contactos efectuados</a>
             </li>
-            <li class="nav-item hidden-3">
-              <a href="login.html" class="nav-link">Iniciar sesión</a>
-            </li>
           </ul>
           <div class="align-items-center mr-2 datos-usuario">
             <img src="" alt="" class="datos-usuario__img">
@@ -51,31 +48,28 @@
   </header>
 
   <main>
-    <section id="nosotros">
-      <h1>Nuestra Empresa</h1>
-      <p><span>Ruta Verde AdventureOutdoor</span> es una empresa con más de 17 años de experiencia en la creación y generación de actividades outdoor, mediante la realización de labores que fomentan el desarrollo y fortalecimiento de los climas laborales, reforzamiento de grupos de trabajo, promueven el liderazgo  y comunicación de quienes participan en nuestras actividades, a través de experiencias y dinámicas enfocadas en entornos naturales.</p>
-      <p>Entre  nuestras actividades se encuentran; trekking ecológico, dinámicas de fortalecimiento e integración de grupos de trabajo, reconocimiento de flora y fauna nativa y el acercamiento a la cultura e historia local de la región.</p>
-      <p><span>Ruta Verde AdventureOutdoor</span>, se posiciona como el principal Tour-operador de la zona con un marcado sello en el cuidado medio ambiental y la sustentabilidad en cada una de nuestras actividades, comprometidas con el desarrollo local y alto compromiso con las necesidades de nuestros clientes, a través del desarrollo de teambuilding,  que permitan incrementar y mejorar la productividad de nuestros contratantes.</p>
-    </section>
+    <section class="tabla-contactos container">
+      <h1>Contactos Realizados</h1>
+      <p>He aquí un registro de todos los contactos efectuados.</p>
+      <table id="tabla" class="table table-striped table-bordered">
+        <thead>
+          <tr>
+            <th>Nombre</th>
+            <th>Apellido</th>
+            <th>Email</th>
+            <th>Mensaje</th>
+          </tr>
+        </thead>
+        <tbody id="tbody">
 
-    <section id="lista-servicios">
-      <h2 class="mb-5">Servicios de Ruta Verde</h2>
-      <ul>
-        <li>Excursiones y Trekking</li>
-        <li>Caminatas Familiares</li>
-        <li>Team Building</li>
-        <li>Fogata y Karaoke</li>
-      </ul>
+        </tbody>
+      </table>
     </section>
   </main>
-
-  <footer>
-
-  </footer>
 
   <!-- -- -- -- Bootstrap & Popper JS -- -- -- -->
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha2/js/bootstrap.bundle.min.js" integrity="sha384-BOsAfwzjNJHrJ8cZidOg56tcQWfp6y72vEJ8xQ9w6Quywb24iOsW913URv1IS4GD" crossorigin="anonymous"></script>
   <!-- -- -- -- Mi JS -- -- -- -->
-  <script src="js/nosotros.js"></script>
+  <script src="js/contactos-efectuados.js"></script>
 </body>
 </html>

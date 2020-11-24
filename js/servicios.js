@@ -99,6 +99,17 @@ function misCards() {
   };
 
 window.addEventListener("DOMContentLoaded", function() {
-  datosUsuario();
   misCards();
+  if(localStorage.length < 1) {
+    document.querySelector(".datos-usuario").classList.remove("d-flex");
+    document.querySelector(".datos-usuario").classList.add("d-none");
+    document.querySelector(".hidden-1").classList.add("d-none");
+    document.querySelector(".hidden-2").classList.add("d-none");
+    alert("Debes iniciar sesión para poder contactarte con nosotros");
+  } else {
+    document.querySelector(".datos-usuario").classList.remove("d-none");
+    document.querySelector(".datos-usuario").classList.add("d-flex");
+    document.querySelector(".hidden-3").classList.add("d-none");
+    datosUsuario();
+  };
 });
